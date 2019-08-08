@@ -183,6 +183,18 @@ echo | faas-cli invoke nodeinfo
 echo -n "verbose" | faas-cli invoke nodeinfo
 ```
 
+* Try the UI
+
+You can access the UI at the same URL of the gateway, so try this URL:
+
+```
+echo http://$OPENFAAS_URL
+```
+
+![](https://github.com/openfaas/faas/raw/master/docs/inception.png)
+
+*Demo of the inception function*
+
 ### Take the wheel
 
 * Learn OpenFaaS
