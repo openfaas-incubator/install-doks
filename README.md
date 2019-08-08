@@ -2,6 +2,8 @@
 
 This guide is for provisioning a cluster manually, or with the new 1-Click Kubernetes Marketplace installer.
 
+The second part of this document is what will be presented to a user, just like the [page for Linkerd2](https://marketplace.digitalocean.com/apps/linkerd-beta).
+
 * [Sign-up as a new customer to get free credits](https://m.do.co/c/2962aa9e56a1)
 
 ## Manual provisioning of DOKS cluster via `doctl`
