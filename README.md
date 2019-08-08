@@ -142,17 +142,15 @@ echo Your gateway URL is: $OPENFAAS_URL
 * Get your password
 
 ```sh
-PASSWORD=$(kubectl get secret -n openfaas basic-auth -o jsonpath="{.data.basic-auth-password}" | base64 --decode; echo)
+echo $(kubectl get secret -n openfaas basic-auth -o jsonpath="{.data.basic-auth-password}" | base64 --decode) > password.txt 
 
-echo Your admin password is: $PASSWORD
+echo Your admin password is: $(cat password.txt)
 ```
 
 * Now use the password to authenticate the CLI:
 
 ```sh
-echo -n $PASSWORD | faas-cli login --username admin --password-stdin
-
-faas-cli login --password $PASSWORD
+cat password.txt | faas-cli login --username admin --password-stdin
 ```
 
 > Note: you can use this command at any time to retrieve your password
