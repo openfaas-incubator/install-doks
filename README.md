@@ -191,6 +191,10 @@ Now it's over to you to start learning about Serverless with OpenFaaS and Kubern
 
 [https://github.com/openfaas/workshop](https://github.com/openfaas/workshop)
 
+* Add TLS for your OpenFaaS Gateway
+
+You can add TLS to your OpenFaaS Gateway URL with the following documentation: [1.0 SSL for the Gateway](https://docs.openfaas.com/reference/ssl/kubernetes-with-cert-manager/)
+
 * Join OpenFaaS Insiders
 
 OpenFaaS Insiders get regular email updates on project news and developments including videos, blogs, and early-access to the latest features. Join by becoming a sponsor on GitHub at any tier.
