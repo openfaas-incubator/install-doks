@@ -2,6 +2,8 @@
 
 This guide is for provisioning a cluster manually, or with the new 1-Click Kubernetes Marketplace installer.
 
+* [Sign-up as a new customer to get free credits](https://m.do.co/c/2962aa9e56a1)
+
 ## Manual provisioning of DOKS cluster via `doctl`
 
 * First, get the `doctl` binary and run `doctl auth`.
