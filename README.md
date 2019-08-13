@@ -8,7 +8,6 @@ The second part of this document is what will be presented to a user, just like 
 
 ## Listing for DigitalOcean Marketplace
 
-```
 OpenFaaS is an award-winning open source project that makes it easy for developers to deploy applications to Kubernetes in a Serverless-style. Any microservice, API, binary, or function can be packaged and deployed in a very short period of time. Once a workload is deployed via the OpenFaaS CLI, API or UI metrics will be tracked and used to auto-scale your code in response to demand.
 
 OpenFaaS comes with built-in auto-scaling, detailed metrics and queue-processing. You can take advantage of pre-made functions from the Function, or a series of templates for Functions or Microservices covering a wide range of languages such as C#, Java, Go, Ruby, PHP, and more.
@@ -16,7 +15,6 @@ OpenFaaS comes with built-in auto-scaling, detailed metrics and queue-processing
 The project is built around open interfaces that can be extended easily. Tutorials and guides can help you enable TLS, setup custom domains, CI/CD, OAuth2, multi-user support, and many other features.
 
 You can find out more about OpenFaaS at [https://www.openfaas.com/](https://www.openfaas.com)
-```
 
 ## Manual provisioning of DOKS cluster via `doctl`
 
