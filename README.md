@@ -8,13 +8,15 @@ The second part of this document is what will be presented to a user, just like 
 
 ## Listing for DigitalOcean Marketplace
 
-OpenFaaS is an award-winning open source project that makes it easy for developers to deploy applications to Kubernetes in a Serverless-style. Any microservice, API, binary, or function can be packaged and deployed in a very short period of time. Once a workload is deployed via the OpenFaaS CLI, API or UI metrics will be tracked and used to auto-scale your code in response to demand.
+OpenFaaS &reg; is an award-winning open source project that makes it easy for developers to deploy applications to Kubernetes in a Serverless-style. Any microservice, API, binary, or function can be packaged and deployed in a very short period of time. Once [a workload](https://docs.openfaas.com/reference/workloads/) is deployed via the OpenFaaS [CLI](https://docs.openfaas.com/cli/install/), API or UI metrics will be tracked and used to auto-scale your code in response to demand.
 
-OpenFaaS comes with built-in auto-scaling, detailed metrics and queue-processing. You can take advantage of pre-made functions from the Function, or a series of templates for Functions or Microservices covering a wide range of languages such as C#, Java, Go, Ruby, PHP, and more.
+OpenFaaS comes with built-in auto-scaling, [detailed metrics](https://docs.openfaas.com/architecture/metrics/) and [queue-processing](https://docs.openfaas.com/reference/async/). You can take advantage of pre-made functions from the Function, or a series of templates for Functions or Microservices covering a wide range of languages such as C#, Java, Go, Ruby, PHP, and more.
 
-The project is built around open interfaces that can be extended easily. Tutorials and guides can help you enable TLS, setup custom domains, CI/CD, OAuth2, multi-user support, and many other features.
+Your workloads can be accessed through the OpenFaaS gateway or triggered by a number of [event sources](https://docs.openfaas.com/reference/triggers/) such as Kafka, RabbitMQ, Redis and Cron.
 
-You can find out more about OpenFaaS at [https://www.openfaas.com/](https://www.openfaas.com)
+The project is built around open interfaces that can be extended easily. Tutorials and guides can [help you enable TLS](https://docs.openfaas.com/reference/ssl/kubernetes-with-cert-manager/), [setup custom domains](https://docs.openfaas.com/reference/ssl/kubernetes-with-cert-manager/#20-ssl-and-custom-domains-for-functions), CI/CD, OAuth2, multi-user support, and many other features.
+
+You can find out more about OpenFaaS at [https://www.openfaas.com/](https://www.openfaas.com) or take the [free workshop online](https://github.com/openfaas/workshop/).
 
 ## Manual provisioning of DOKS cluster via `doctl`
 
